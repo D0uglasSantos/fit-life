@@ -4,7 +4,7 @@
 
 > Olá, esté é um projeto de um website de uma academia!!.
 > 
-<h4 align="center"><a href="https://douglas-santos-portfolio.netlify.app/" target="blank">Clique para visitar o projeto</a></h4>
+<h4 align="center"><a href="#" target="blank">Clique para visitar o projeto</a></h4>
 
 ## 💼 Tecnologias utilizadas
 
