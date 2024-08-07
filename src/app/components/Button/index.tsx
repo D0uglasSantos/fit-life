@@ -23,7 +23,7 @@ const Button = ({
 }: ButtonProps) => {
   return (
     <button
-      className={`${paddingY} ${paddingX} ${bgColor} ${borderRadius} ${hover} ${textColor} ${text} ${font} mt-4 lg:text-xl shadow-2xl`}
+      className={`${paddingY} ${paddingX} ${bgColor} ${borderRadius} ${hover} ${textColor} ${text} ${font} mt-4 lg:text-xl shadow-2xl transition-colors duration-100`}
     >
       {children}
     </button>

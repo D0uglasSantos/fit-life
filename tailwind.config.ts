@@ -9,12 +9,15 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      borderWidth: {
+        0.5: ".5px",
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-        "foco-forca-fit": "url('/foco-forca-fit.png')",
-        "banner-section": "url('/background-banner-section.png')",
+        "motivation-desktop": "url('/forca-foco-fit.jpg')",
+        "motivation-mobile": "url('/forca-foco-fit-mobile.jpg')",
       },
       colors: {
         "color-primary": "#0F3E5C",

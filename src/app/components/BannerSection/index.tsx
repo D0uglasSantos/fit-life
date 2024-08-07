@@ -7,14 +7,14 @@ import Button from "../Button";
 const BannerSection = () => {
   return (
     <section className="bg-color-primary h-max w-full py-10 px-4 flex flex-col items-center max-lg:flex max-lg:justify-center max-lg:items-center">
-      <div className="w-11/12 flex items-center justify-center mb-4 md:justify-start">
+      <div className="w-8/12 flex items-center justify-center mb-4 md:justify-start">
         <Image
           src={logo}
           alt="logo"
           className=" w-[180px] h-[80px] md:w-[250px] md:h-[100px]"
         />
       </div>
-      <div className="xl:w-11/12">
+      <div className="xl:w-8/12">
         <Image
           src={bannerMobile}
           alt="banner Mobile"
@@ -26,18 +26,20 @@ const BannerSection = () => {
           className=" hidden rounded-3xl md:flex"
         />
       </div>
-      <Button
-        bgColor="bg-color-details"
-        borderRadius="rounded-lg"
-        paddingX="px-6"
-        paddingY="py-4"
-        font="font-bold"
-        text="text-sm"
-        hover="hover:bg-green-800"
-        textColor="text-white"
-      >
-        MATRICULE-SE AQUI
-      </Button>
+      <div className="-mt-11">
+        <Button
+          bgColor="bg-color-details"
+          borderRadius="rounded-lg"
+          paddingX="px-8"
+          paddingY="py-4"
+          font="font-bold"
+          text="text-sm"
+          hover="hover:text-green-900"
+          textColor="text-white"
+        >
+          MATRICULE-SE AQUI
+        </Button>
+      </div>
     </section>
   );
 };

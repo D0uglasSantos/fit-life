@@ -15,7 +15,7 @@ const PriceCards = ({
   months,
 }: PriceCardsProps) => {
   return (
-    <div className="border rounded-xl border-zinc-400 px-5 py-5 space-y-4 w-3/4">
+    <div className="border rounded-xl border-zinc-400 px-5 py-5 space-y-4 w-3/4 md:hidden">
       <div>
         <h1 className="text-lg text-black">
           Plano <span className="font-bold">{planoTitle}</span>
